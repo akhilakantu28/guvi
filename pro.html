@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="pro.css">
+<script type="stylesheet" src="pro.js"></script>
+</head>
+<body>
+<form action="#" name="regform2" method="post" onsubmit="return validation()">
+<fieldset>
+<figure>
+<img src="logo.png"  align="left"  height="150" width="300">
+</figure>
+<center><h1><strong><b>REGISTRATION OPEN FOR SUMMER TRAINING PROGRAM 2k18</b></strong></h1><br>
+<h2>Last date of summer training registration 31st march 2018</h2>
+</center>
+<div class="navbar">
+<center>
+  <a href="#home">Home</a>
+  <a href="aboutus.html">aboutus</a>
+  <a href="course.html">course</a>
+  <a href="ex1.html">student login</a>
+  <a href="register.html">registation</a>
+   <a href="gallery.html">gallery</a>
+   <a href="program.html">program</a>
+</center>
+</div>
+<h3>  Toll Free no:-1800-30000-893</h3>
+
+</div>
+
+</fieldset>
+<table  align="left" width="70%" >
+<tr>
+ <td>
+  <div class="w3-content w3-section" align="center" style="max-width:300px">
+  <img class="mySlides" src="aspirev.jpg" style="width:300%" height="15%">
+  <img class="mySlides" src="slide3.jpg" style="width:300%" height="15%">
+  <img class="mySlides" src="slide3.jpg" style="width:300%" height="15%">
+  <img class="mySlides" src="slide5.jpg" style="width:300%"height="15%">
+  <img class="mySlides" src="slide5.jpg" style="width:300%"height="15%">
+  </div>
+</td>
+</tr>
+</table>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() 
+{
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<script>
+function validateForm() {
+   
+    var name= document.myForm.fname1.value;
+   var l=/^[a-zA-Z]+$/;
+   if(name==""||name.match(l)==null) {
+        alert("Name must be filled out");
+		document.myForm.fname1.focus();
+        return false;
+    }
+	if(document.myForm.pd.value=="")
+ {
+	alert("please enter password");
+	document.myForm.pd.focus();
+	return false;
+  }
+	return true;
+}
+	
+function redirect()
+{
+	location="register.html";
+}
+</script>
+</div>
+</tr>
+</table>
+<table  id="2" align="center" width="30%" height="40%">
+<tr>
+<td>
+<div class="formbox">
+	     <form>
+	      <p>username</p>
+	      <input type="text" name="" placeholder="online">
+	      <p>password</p> 
+	       <p><input type="password" name="" placeholder="......"></p>
+		   <p><input type="submit"  name="" value="signin"></p>
+		   <p><a href="#">forget password</a></p>
+		   <form onclick="register.html">
+		   <p>new!"<input type="button" value="register" onclick="redirect();">
+		   </form>
+	      </form>
+	     </div>
+</td>
+</tr></table>
+<table width="100%">
+
+<tr>
+	<td> <img src="bulk.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<td><img src="bulk2.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<td><img src="bulk3.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<td><img src="bulk4.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <td><img src="bulk.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <td><img src="bulk.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <td><img src="bulk5.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 
+	 </tr></center>
+</div>	 
+</table>
+<link rel="stylesheet"  href="summer.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class"container">
+<div class="row">
+
+<p>   </p></div>
+<p>
+<span class="inner">
+<big>summer training program</big>
+</span>
+<span style="border:2px solid;padding:6px;background:#e3836f;
+border-radius:15px;color:white;font-size:23px;">Register Now &nbsp&nbsp&nbsp</span>
+<span class="innerloc"> kolkata | Hyderabad | pune | Noida |Banglore | Vizag | Raipur
+  </span> 
+  </p>   </div>
+
+<footer>ASPIREVISION TECH EDUCATION PVT LTD COPYRIGHT @COPY; 2018,ALL RIGHTS RESERVED</footer>
+</body>
+</html>
+

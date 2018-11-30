@@ -1,0 +1,92 @@
+
+.formbox{
+	width: 100%;
+border:brown;	
+	padding:80px 40px;
+	height:450px;
+	box-sizing: border-box;
+	background:light-blue;;
+	
+}
+.formbox p{
+	margin:1px;
+	padding:0;
+	font-weight: bold;
+	color:#a6af13;
+}
+.formbox input
+{
+	margin-bottom:20px;
+}
+.formbox input[type="text"],
+.formbox input[type="password"]
+{
+	border:none;
+	border-bottom:2px solid #a6af13;
+	outline:none;
+	height:40px;
+}
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus
+{
+	border-bottom:2px solid #262626;
+}
+.formbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	width:120px;
+	height:40px;
+	color: #FA8072;
+	background: #a6af13;
+	cursor: pointer;
+	}
+.formbox input[type="button"]
+{
+	margin:15px;
+	padding:6px;
+	color:white;
+	font-size:23px;
+	border-radius:15px;
+	background: #e3836f;
+}
+h3{
+	color:white;
+	text-align:right;
+}
+	
+div.container {
+	height:100%;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+     color: black;
+    background-color:red;
+    clear: left;
+    text-align: center;
+}
+
+
+.navbar {
+    overflow: hidden;
+	text-align:center;
+    background-color:#FA8072;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h2
+{
+background-color:;
+  text-size:"4+";
+}
